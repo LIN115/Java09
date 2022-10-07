@@ -1,0 +1,32 @@
+package Java09;
+
+class CRectangle{ //定義類別CRectangle
+	int width;
+	int height;
+	
+	public CRectangle(int w,int h) { // 有引數的建構元
+		width=w;
+		height=h;
+	}
+	public CRectangle() { // 沒有引數的建構元
+		this(10,8);
+		int width ;
+		int height;
+	}
+	public void show() {
+		System.out.println("width="+width);
+		System.out.println("height="+height);
+	}
+	
+}
+public class Class001 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CRectangle aa=new CRectangle();
+		aa.show();
+	
+		
+	}
+
+}
