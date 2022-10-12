@@ -1,40 +1,40 @@
 package Java09;
 
-class Namecard {
+class Namecard {    // 外部類別
 	private String name;
 	private String address;
 	private Phone data;
 
-	public Namecard(String n, String a, String s1, String s2) {
+	public Namecard(String n, String a, String s1, String s2) { // Namecard建構元
 		name = n;
 		address = a;
-		data = new Phone(s1, s2);
+		data = new Phone(s1, s2); 用new建立Phone物件
 	}
 
-	class Phone {
+	class Phone {  // 內部類別
 		private String company;
 		private String cell;
 
-		public Phone(String s1, String s2) {
+		public Phone(String s1, String s2) { // Phone建構元
 			company = s1;
 			cell = s2;
 		}
 
 		public void show_company() {
-			System.out.println("���q�q��:" + company);
+			System.out.println("公司電話:" + company);
 		}
 
 		public void show_cell() {
-			System.out.println("������X:" + cell);
+			System.out.println("手機號碼:" + cell);
 		}
 
 	}
 
-	public void show() {
-		System.out.println("�n�ͩm�W:" + name);
-		System.out.println("�p���a�}:" + address);
-		data.show_company();
-		data.show_cell();
+	public void show() { // 外部類別Namecard的成員函數
+		System.out.println("好友姓名:" + name);
+		System.out.println("聯絡地址:" + address);
+		data.show_company(); //System.out.println("公司電話:" + company);
+		data.show_cell(); // System.out.println("手機號碼:" + cell);
 	}
 }
 
