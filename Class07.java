@@ -2,7 +2,7 @@ package Java09;
 
 class Count {
 	public static void ppp(int i, int j) {
-		System.out.println(Math.pow(i, j)); // ¥­¤è
+		System.out.println(Math.pow(i, j)); // å¹³æ–¹
 	}
 
 }
