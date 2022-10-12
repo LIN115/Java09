@@ -1,6 +1,6 @@
 package Java09;
 
-class CCircle // ©w¸qÃþ§OCCircle
+class CCircle // å®šç¾©é¡žåˆ¥CCircle
 {
 	private static double pi = 3.14;
 	private double radius;
