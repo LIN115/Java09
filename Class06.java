@@ -8,7 +8,7 @@ class CCount {
 			count = count + i;
 		}
 		System.out.println("1+2+3+..=" + count);
-		count = 0; // ¶·Âk¹s§_«h·|Ä~Äò²Ö­p¥[¤U¥h
+		count = 0;//é ˆæ­¸é›¶å¦å‰‡æœƒç¹¼çºŒç´¯è¨ˆåŠ ä¸‹å»
 	}
 
 }
