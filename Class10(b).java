@@ -1,6 +1,6 @@
 package Java09;
 
-class CRational // だ计摸
+class CRational // 鍒嗘暩椤炲垾
 {
 	public static int n;
 	public static int d;
@@ -10,12 +10,12 @@ class CRational // だ计摸
 		d = den;
 	}
 
-	public void setN(int num) // 砞﹚だ
+	public void setN(int num) // 瑷畾鍒嗗瓙
 	{
 		n = num;
 	}
 
-	public void setD(int num) // 砞﹚だダ
+	public void setD(int num) // 瑷畾鍒嗘瘝
 	{
 		d = num;
 	}
@@ -28,12 +28,12 @@ public class Class101 {
 		// TODO Auto-generated method stub
 		CRational aaa = new CRational();
 		aaa.setND(3, 5);
-		show(aaa); // ず场ㄧ计(ン)
+		show(aaa); // 鍏ч儴鍑芥暩(鐗╀欢)
 	}
 
-	public static void show(CRational obj) // ま计 摸andン
+	public static void show(CRational obj) // 寮曟暩 椤炲垾and鐗╀欢
 	{
 
-		System.out.println(obj.n + "/" + obj.d); // 陪ボだ计
+		System.out.println(obj.n + "/" + obj.d); // 椤ず鍒嗘暩
 	}
 }
