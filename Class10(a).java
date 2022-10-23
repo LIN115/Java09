@@ -1,6 +1,6 @@
 package Java09;
 
-class CRational // ¤À¼ÆÃş§O
+class CRational // åˆ†æ•¸é¡åˆ¥
 {
 	public int n;
 	public int d;
@@ -10,18 +10,18 @@ class CRational // ¤À¼ÆÃş§O
 		d = den;
 	}
 
-	public void setN(int num) // ³]©w¤À¤l
+	public void setN(int num) // è¨­å®šåˆ†å­
 	{
 		n = num;
 	}
 
-	public void setD(int num) // ³]©w¤À¥À
+	public void setD(int num) // è¨­å®šåˆ†æ¯
 	{
 		d = num;
 	}
 
 	public void show() {
-		System.out.println(n + "/" + d); // Åã¥Ü¤À¼Æ
+		System.out.println(n + "/" + d); // é¡¯ç¤ºåˆ†æ•¸
 	}
 
 }
