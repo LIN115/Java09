@@ -9,25 +9,25 @@ class Data {
 		score = new Test(s1, s2);
 	}
 
-	class Test {
+	class Test { 
 		private int english;
 		private int math;
 
-		Test(int eng, int m) {
+		Test(int eng, int m) { //Testé¡åˆ¥å»ºæ§‹å…ƒ
 			english = eng;
 			math = m;
 		}
 
-		double avg() {
+		double avg() { // double avg()å‡½æ•¸
 			return (english + math) / 2.0;
 		}
 	}
 
 	public void show() {
-		System.out.println("¾Ç¥Í©m¦W:" + name);
-		System.out.println("­^¤å¦¨ÁZ:" + score.english);
-		System.out.println("¼Æ¾Ç¦¨ÁZ:" + score.math);
-		System.out.println("¥­§¡¦¨ÁZ:" + score.avg());
+		System.out.println("å­¸ç”Ÿå§“å:" + name);
+		System.out.println("è‹±æ–‡æˆç¸¾:" + score.english);
+		System.out.println("æ•¸å­¸æˆç¸¾:" + score.math);
+		System.out.println("å¹³å‡æˆç¸¾:" + score.avg());
 	}
 }
 
